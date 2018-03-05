@@ -1,4 +1,4 @@
-# Metodologias-Agiles
+# Metodologias Agiles (Scrum, Kanban)
 ## Por que existe esta Guía?
 En este repositorio planeo crear una Guia de lo que son las metodologias Agiles y Como utilizarlas para el desarrollo de Software esto teniendo en cuenta el principio de que la mejor forma de aprender es enseñando espero que te sea de utilidad mis notas sobre estos conceptos.
 
@@ -196,5 +196,4 @@ Recordemos que todo esto es para crear una mejor planificación y con ello crear
 - Valuable: Siempre debe dar valor al cliente, no debe crear historias técnicas.
 - Estimable: Si no se puede estimar es porque se debe conversar más aun.
 - Small : Pequeñas pero no demasiado.
-- Testable: Si no se puede probar, ¿cómo puede saber que esté terminada ?
-
+- Testable: Si no se puede probar, ¿Cómo puede saber que esté terminada?
