@@ -197,3 +197,24 @@ Recordemos que todo esto es para crear una mejor planificación y con ello crear
 - Estimable: Si no se puede estimar es porque se debe conversar más aun.
 - Small : Pequeñas pero no demasiado.
 - Testable: Si no se puede probar, ¿Cómo puede saber que esté terminada?
+
+# Estimar tiempos
+
+Con los conceptos anteriores bien entendidos surgira la pregunta ¿Cómo estimo el tiempo de las Historias de usuario? como se puede ver en la imagen numero 2 donde se muestra un ejemplo de como es una historia de usuario podemos ver que hay un tiempo estimado en horas para realizar esta tarea y un valor en puntos ¿que es todo esto y como se calcula?.
+
+El valor en puntos es la dificultad que tiene cada tarea. Esto son asignados por un grupo, este grupo puede por ejemplo estar formado por los expertos en cada tema ellos se encargaran de asignar un valor numerico a cada historia de usuario el cual es la dificultad de la tarea. Existen diversas tecnicas para realizar esta estimación de puntos un ejemplo es usar la Sucesión de Fibonacci (https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci) como metodo para calificar la dificultad de las actividades por ejemplo la creación y normalización de la base de datos. Cada miembro dara un valor de la Sucesión de Fibonacci intentando que no sean numeros muy altos para darle su valor en puntos a la tarea una ves que todos los miembros expresen su opinión de cuantos puntos merece esta actividad se priorizan opiniones como la del experto en esta area obviamente se deben intercambiar opiniones de por que cada miembro dio tal valorización a esta tarea. Tambien por ejemplo en este mismo caso podemos imaginar que esta presente un experto en diseño de interfaces UX el cual no tiene conocimiento de bases de datos el puede decidir no participar en la valorización de esta tarea.
+
+¿Qué pasa si la tarea es muy compleja y necesito asignarle un valor muy alto? Este caso es muy probable que se presente y por ejemplo se estima que se le debe de asignar un valor de 21 puntos (lo cual es muy alto). Puede trabajarse asi sin problemas pero en metodologías agiles se concidera una mejor idea analizar el por que esta tarea vale tanto y mejor dividirla en tareas mas pequeñas que tengan un menor valor.
+
+El unico momento donde si es posible darle valores muy altos a la historia es cuando esta historia es un Epic ya que al ser detalles tan especificos suelen tener un alto nivel de dificultad.
+
+![imagen4](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img4.JPG)
+
+Una ves este asignado el puntaje de una actividad normalmente las horas que se estiman para realizarla son los puntos asignados con 1 o 2 horas extras. Esto es por la capacidad de trabajo a que me refiero con esto supongamos que el tiempo establecido para la primera iteración son 2 semanas lo cual son 10 dias habiles de trabajo de estos 10 dias solo se trabajan realmente 8 hrs por lo que tendriamos 80 hrsy suponiendo que el equipo es de 4 personas tendriamos un ideal de 320 horas trabajadas en estos 10 dias pero la gente no trabaja como una maquina por lo que se reducen estas horas por ejemplo pensemos que no van a trabajar las 80 horas si no que de estas 80 horas solo trabajaran 60 por lo tanto el tiempo real es de 4x60=240
+horas de trabajo claro que se establece un tiempo de trabajo esperado por ejemplo si nuestro tiempo real es de 240 hrs intentar que se trabajen 260.
+
+Por esto varias herramientas ya tiene un monitoreo del tiempo emplado en una historia.
+
+
+
+
