@@ -7,7 +7,7 @@ A continuación te dejo algunas palabras que podrian generarte confusión al lee
 
 <b>Agile: (Ágil)</b> Nombre genérico de las metodologías de desarrollo
 
-<b>Iteraciones:</b> Repeticiones de procesos con la finalidad de alcanzar una meta deseada.
+<b>Iteraciones:</b> Repeticiones de procesos con la finalidad de alcanzar una meta deseada. Estan formadas por una planeación esta se crea a partir de votaciones por ejemplo si estamos creando el registro de usuario de la pagina cual es la información que debemos pedirle al usuario para asi generar el mejor registro de usuario posible.
 
 <b>Sprint:</b> Nombre con el que se le conoce a las iteraciones en SCRUM.
 
@@ -18,6 +18,8 @@ A continuación te dejo algunas palabras que podrian generarte confusión al lee
 <b>KANBAN:</b> Framework de flujo de trabajo para administración de desarrollo de productos.
 
 <b>Spike: Tipo de Sprint para realizar experimentos, investigación o documentación que pueda ser util para el proyecto.
+
+<b>Persona</b> Son los usuarios finales que interactuan con el producto.
 
 # Qué es Agile?
 Agile es una metodologia (framework para los mas puristas) de trabajo. Para tener una organización mas efectiva y mayor profesionalismo a la hora de desarrollar un proyecto en este caso lo oriento al software pero esto solo es por que es donde yo tengo mayor dominio pero facilmente puedes utilizar estos conocimientos en cualquier area esto es por que la metodología maneja conceptos muy interesantes para un trabajo mas fluido y profesional.
@@ -170,3 +172,29 @@ Un ejemplo de como utilizar esto es por ejemplo que el cliente quiere que agrege
 Espero que con esto quede claro que es un Backlog y una historia ahora cabe mencionar que una historia esta ligada a un <b>Wireframe</b> que es una representación visual del producto, pero en relación a las interacciones de los usuarios y roles.
 
 ![imagen3](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img3.jpg)
+
+# Personas
+
+Persona es un personaje ficticio que usará nuestro producto. 
+
+El equipo está encargado de definir las características de ese usuario (nombre, edad, genero, si está casado o soltero, hijos, profesión, trabajo, su horario, pasatiempos, definanlo tanto como se pueda busquen una foto de alguien que nadie conosca e implantenle todo esto creenle una personalidad.
+
+Definan sus meta y objetivo, que se verá resuelto con tu solución propuesta.
+
+Cada que se tenga que tomar una desición del proyecto para incorporar a un Epic (funcionalidades extras que requieran varias iteraciones y que puedan dar un valor agregado al producto.), pueden utilizar a estas Personas para hacerlo, creando una simulación de como cambiariá su entorno. La incorporación de los Epics mejorara el producto y le dara mas valor al solucionar problemas que puedan tener los usuarios son detalles pero al final estos pequeños detalles suman mucho al producto.
+
+Para trabajar las Historias de usuario con Epics vamos a dividir cada Epic en funcionalidades más pequeñas que podrán ir definiendo las historias de usuario que formarán dicho Epic.
+
+Por qué es utili trabajar con personas?.
+
+Estas permiten imaginarnos que estamos ayudando a alguien y estamos resolviendo un problema que tienen el cual no se habria pensado en el de no ser por lo definido del caracter de esta persona, Al simular personas estas se comportan como los posibles usuarios reales del producto y si no las creamos puede que se presenten problemas que no habiamos contemplado por ejemplo que a nosotros como programadores nos sea muy natural el uso del software que desarrollamos pero a una persona externa a este mundo le cueste mucho trabajo utilizar el programa. O un ejemplo mas especifico que la letra de nuestro programa sea muy pequeña y nuestra persona tiene problemas de visión por lo que poder ajustar la letra del programa le seria de mucha utilidad.
+
+Recordemos que todo esto es para crear una mejor planificación y con ello crear mejores Historias de usuario segmentando mejor lo que se realizara. Existen tambien ya modelos para crear historias de usuario mas eficientes un ejemplo es el modelo INVEST:
+
+- Independent: Pueden realizarse en cualquier orden, no dependen unas de otras.
+- Negotiable: Son promesas de comunicación, no son contratos.
+- Valuable: Siempre debe dar valor al cliente, no debe crear historias técnicas.
+- Estimable: Si no se puede estimar es porque se debe conversar más aun.
+- Small : Pequeñas pero no demasiado.
+- Testable: Si no se puede probar, ¿cómo puede saber que esté terminada ?
+
