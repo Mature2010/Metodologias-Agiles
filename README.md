@@ -17,7 +17,7 @@ A continuación te dejo algunas palabras que podrian generarte confusión al lee
 
 <b>KANBAN:</b> Framework de flujo de trabajo para administración de desarrollo de productos.
 
-<b>Spike: Tipo de Sprint para realizar experimentos, investigación o documentación que pueda ser util para el proyecto.
+<b>Spike:</b> Tipo de Sprint para realizar experimentos, investigación o documentación que pueda ser util para el proyecto.
 
 <b>Persona</b> Son los usuarios finales que interactuan con el producto.
 
@@ -204,7 +204,7 @@ Con los conceptos anteriores bien entendidos surgira la pregunta ¿Cómo estimo 
 
 El valor en puntos es la dificultad que tiene cada tarea. Esto son asignados por un grupo, este grupo puede por ejemplo estar formado por los expertos en cada tema ellos se encargaran de asignar un valor numerico a cada historia de usuario el cual es la dificultad de la tarea. Existen diversas tecnicas para realizar esta estimación de puntos un ejemplo es usar la Sucesión de Fibonacci (https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci) como metodo para calificar la dificultad de las actividades por ejemplo la creación y normalización de la base de datos. Cada miembro dara un valor de la Sucesión de Fibonacci intentando que no sean numeros muy altos para darle su valor en puntos a la tarea una ves que todos los miembros expresen su opinión de cuantos puntos merece esta actividad se priorizan opiniones como la del experto en esta area obviamente se deben intercambiar opiniones de por que cada miembro dio tal valorización a esta tarea. Tambien por ejemplo en este mismo caso podemos imaginar que esta presente un experto en diseño de interfaces UX el cual no tiene conocimiento de bases de datos el puede decidir no participar en la valorización de esta tarea.
 
-¿Qué pasa si la tarea es muy compleja y necesito asignarle un valor muy alto? Este caso es muy probable que se presente y por ejemplo se estima que se le debe de asignar un valor de 21 puntos (lo cual es muy alto). Puede trabajarse asi sin problemas pero en metodologías agiles se concidera una mejor idea analizar el por que esta tarea vale tanto y mejor dividirla en tareas mas pequeñas que tengan un menor valor.
+¿Qué pasa si la tarea es muy compleja y necesito asignarle un valor muy alto? Este caso es muy probable que se presente y por ejemplo se estima que se le debe de asignar un valor de 21 puntos (lo cual es muy alto). Puede trabajarse asi sin problemas pero en metodologías agiles se concidera una mejor idea analizar el por que esta tarea vale tanto y mejor dividirla en tareas mas pequeñas que tengan un menor valor. Esto es por que Agile utiliza mucho el principio <b>"Divide Y Venceras"</b>.
 
 El unico momento donde si es posible darle valores muy altos a la historia es cuando esta historia es un Epic ya que al ser detalles tan especificos suelen tener un alto nivel de dificultad.
 
@@ -215,6 +215,24 @@ horas de trabajo claro que se establece un tiempo de trabajo esperado por ejempl
 
 Por esto varias herramientas ya tiene un monitoreo del tiempo emplado en una historia.
 
+### Priorizar Tareas
 
+Un buen subtema sobre la estimación de tiempos es saber el por que es bueno priorizar tareas esto es por que agiliza las tareas y permite concentrarse en lo mas prioritario y no perder el tiempo con tareas que no son tan importantes existen varias formas de priorizar pero estas dependen de cada equipo y como decidan enfocar el proyecto por ejemplo:
 
+- Por el valor de la tarea: Suponiendo que tenemos tres tareas se elige la que mayor retorno de capital regrese al equipo conciderando cuanto retorna esta tarea y cuanto nos cuesta realizarla <i>(Valor tarea - precio de fabricación)</i> la que nos de el mayor valor neto es la que se trabajara.
 
+- Experiencia: Esta se basa en tener en el equipo gente con experiencia que al haber trabajado en proyectos similares puedan determinar una mejor ruta para realizar el proyecto. (También puede ser la experiencia del Product Owner)
+
+- Riesgos: Priorizar todos aquellos features que nuestro proyecto necesita como mínimo para funcionar.
+
+# Incremental Delivery
+
+(Desarrollo productivo) Este es un concepto importante en las metodologías agiles y es entender que a medida que pase el tiempo el trabajo va a ir incrementando esto es por las iteraciones que se realizaran buscando lograr requerimientos tecnicos y no funcionales por que no en todas las iteraciones necesariamente realizaremos código esto por que puede haber iteraciones de investigación, entrenamiento, experimentación (spike), etc.
+
+Por otra parte tambien se empezaran a realizar revisiones de funcionamiento, de codigo, de utilidad por parte del equipo y del Product Owner para que así el tiempo y el costo de nuestro producto sean lo mas bajas posibles. Por ejemplo en la revición del codigo este debe ser funcional aun que solo sea una pequeña parte.
+
+Es por estos motivos que algunos equipos deciden tener iteraciones tematicas por ejemplo dedicar una iteracion al diseño solamente otra al desarrollo y otra a las pruebas pero esto al final sera como el equipo decida que se realicen las iteraciones para entregar el trabajo en el menor tiempo posible.
+
+También un tema importante es que pasa si esta por terminar el tiempo de la iteración y no estan completas todas las historias de usuario, en estos casos se busca que las historias de usuario que no se completen sean las menos prioritarias que no dañen al proyecto ni al negocio.
+
+Otra de las caracteristicas importantes del Incremental Delivery es estar siempre actualizados tecnicamente, esto se refiere a buscar la mejor tecnología para implementar al proyecto por esto es que hay iteraciones de investigación y de experimentación ya que asi se le da un mayor tiempo de vida a nuestro proyecto. Creo que es basico remarcar en este punto que la tecnología no solo sea de punta si no que sea estable y tenga futuro si no nuestros esfuerzos prodian ser en vano.
