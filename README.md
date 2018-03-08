@@ -236,3 +236,7 @@ Es por estos motivos que algunos equipos deciden tener iteraciones tematicas por
 También un tema importante es que pasa si esta por terminar el tiempo de la iteración y no estan completas todas las historias de usuario, en estos casos se busca que las historias de usuario que no se completen sean las menos prioritarias que no dañen al proyecto ni al negocio.
 
 Otra de las caracteristicas importantes del Incremental Delivery es estar siempre actualizados tecnicamente, esto se refiere a buscar la mejor tecnología para implementar al proyecto por esto es que hay iteraciones de investigación y de experimentación ya que asi se le da un mayor tiempo de vida a nuestro proyecto. Creo que es basico remarcar en este punto que la tecnología no solo sea de punta si no que sea estable y tenga futuro si no nuestros esfuerzos prodian ser en vano.
+
+# MVP (Minimum Valuable Product)
+
+Para continuar primero hay que entender que es un MVP 
