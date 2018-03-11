@@ -2,6 +2,26 @@
 ## Por que existe esta Guía?
 En este repositorio planeo crear una Guia de lo que son las metodologias Agiles y Como utilizarlas para el desarrollo de Software. Esto teniendo en cuenta el principio de que la mejor forma de aprender es enseñando espero que te sea de utilidad mis notas sobre estos conceptos para realizar de forma mas efectiva un proyecto.
 
+# Indice
+- [Glosario](#algunas-palabras-importantes).
+- [Liderazgo en metodologias Agile](#liderazgo-e-inteligencia-emocional).
+- [Qué es Agile?](#que-es-agile).
+- [Agile Manifesto](#agile-manifesto-manifiesto-agil)
+- [Los 12 Principios](#los-12-principios-del-manifesto-agil)
+- [Hacer Equipos](#hacer-un-equipo)
+ - [Negociación](#negociacion)
+- [Comunicación](#comunicacion)
+ - [Backlog](#backlog-y-comunicacion-entre-el-equipo)
+- [Personas](#personas)
+- [Estimar tiempos](#estimar-tiempos)
+ - [Priorizar Tareas](#priorizar-tareas)
+- [Incremental Delivery](#incremental-delivery)
+- [MVP](#mvp-minimum-valuable-product)
+- [SCRUM](#scrum)
+- [KANBAN](#kanban)
+- [XP (Extreme Programming)](#xp-extreme-programming)
+- [Herramientas](#herramientas-para-realizar-metodologias-agile)
+
 # Algunas palabras importantes
 A continuación te dejo algunas palabras que podrian generarte confusión al leer esta guía.
 
@@ -49,7 +69,7 @@ Para saber como utilizar la inteligencia emocinal en un equipo dejare la siguien
 | Auto-Administración (Adaptabilidad, Motivación)        | Habilidades Sociales (Liderazgo, Motivación)|
 | Auto-conocimiento (Conocimiento del ser, Apreciación)  | Conocimiento Social (Conocimiento de organización, Entorno) |
 
-# Qué es Agile?
+# Que es Agile?
 Agile es una metodologia (framework para los mas puristas) de trabajo. Para tener una organización mas efectiva y mayor profesionalismo a la hora de desarrollar un proyecto en este caso lo oriento al software pero esto solo es por que es donde yo tengo mayor dominio pero facilmente puedes utilizar estos conocimientos en cualquier area esto es por que la metodología maneja conceptos muy interesantes para un trabajo mas fluido y profesional.
 
 - Esta metodología implica ser versatil y poder adaptarse a cambios en cualquier momento.
@@ -163,7 +183,7 @@ Stand-Ups son juntas diarias en la que se va a conversar en qué fue lo que se h
 
 9. Colocación: Ya formado el equipo y creado el compromiso. Pueden existir equipos locales y equipos remotos. Lo importante es que la comunicación sea eficiente y continua generalmente se busca crear equipos locales pero esto solo es por que la comunicación persona a persona es inmediata y esto presenta varias ventajas.
 
-## Negociación
+## Negociacion
 
 Siempre debe existir una colaboración constante entre todos los miembros del equipo pero existen casos en los que se presentan conflictos (entiendansen como diferencias de opinion acerca de actividades a realizar en historias de usuarios o formas de trabajar y no como problemas interpersonales entre miembros del equipo, para estos como se explico antes es necesario crear un equipo con inteligencia emocional.) por esto podemos definir las situaciones que se podrian presentar:
 
@@ -194,7 +214,7 @@ También este tema se toca en el libro Los siete hábitos de la gente altamente 
 
 ![guerra](https://www.iaspaper.net/wp-content/uploads/2017/02/Level-Of-Conflicts.jpg)
 
-# Comunicación
+# Comunicacion
 
 ### Entre Roles
 
@@ -221,7 +241,7 @@ Punto de vista del cliente (Product Owner) Para esto existe una comunicación mu
 
 El equipo por otro lado le contesta con sus <b>Historias de Usuario</b>, que es la personificación de cada uno de estos requerimientos dando a entender que entienden lo que quiere hacer el dueño del producto esto si la historia cumple con el criterio de aceptación, es decir, esperar a que el cliente apruebe esa pequeña tarea para  poder integrarla una vez que se haya hecho de manera correcta.
 
-### Backlog y comunicación entre el equipo
+### Backlog y comunicacion entre el equipo
 El backlog es un contenedor lógico de las tareas que aún no se consideran en un proceso o estado activo para el equipo. Mientras mas arriba esten en el Backlog mas importancia tiene para su desarrollo. Esta es una herramienta muy importante para la comunicación efectiva por ejemplo tomemos en cuenta el punto anterior entre la comunicación Equipo - Cliente. El cliente nos dara un enunciado donde el equipo entiende que es lo que quiere el cliente luego especifican la tarea para poder integrarla una vez se acepte por parte del cliente si no se regresa al ciclo:
 
 ![imagen1](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img1.png)
@@ -395,3 +415,47 @@ En base a las experiencia que se a adquirido en kanban se a llegado a la conclus
 - 2 De Pruebas
 
 Esto por el nivel de complejidad de cada una de las fases. Por lo que limita el WIP y es uno de los Principios mas importantes de Kanban
+
+# XP (Extreme Programming)
+
+Este framework va mas enfocado al código y al desarrollo como su nombre lo indica esta enfocado en la programación extrema y se basa en los equipos que se enfocan en todo el desarrollo del producto y las pruebas hay 12 practicas de Extreme Programming las cuales son:
+
+![img xp](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img8.png)
+
+1. Planeacion: Esta enfocado en como formar el equipo, quienes van a ser los expertos y definir roles y finalmente defir las iteraciones (una a dos semanas).
+2. Releases pequeños: Lleva al extremo todas las practicas de Agile el maximo pueden ser 2 semanas de iteración.
+3. Methapor. Eliminar todas las conversaciones tecnicas con el cliente. Pero seguimos trabajando de la mano con el y realizando las evaluaciones Por lo que se utilizan encambio analogias para eliminar toda la jerga tecnica que puede llegar a confundir al cliente ademas de que la mayoria de las veces resulta innecesaria.
+4. Diseño. Tomar todos los requerimientos del cliente y Entregar solo necesario para cumplir con esos lineamientos por esto el Diseño debe ser simple
+5. TDD(Test-Driven Development): Se deben diseñar primero las pruebas, despues el código para esas pruebas y finalmente todas las pruebas automaticas esto se refiere a Fail First (Fallar primero) 
+6. Pair programming: Dos programadores utilizan solo una computadora para hacer el desarrollo normalmente se trabaja con una persona desarrollando el código y la otra generando algoritmos, la estructura del codigo, etc. y cada determinado tiempo cambian de lugar. 
+7. Refactorizacion: Vamos a generar una refactorización de código (modificación del código fuente sin cambiar su comportamiento, se conoce informalmente por limpiar el código. Para mejorar su consistencia interna y su claridad. Los tests aseguran que la refactorización no cambia el comportamiento del código.)
+8. Codigo colectivo: Cualquier persona puede trabajara en cualquier porción de código
+9. Estrategia de integracion continua: Que toda la construcción del código se haga de manera automatica 
+10. Marcha sostenible: Se va a tener un seguimiento mas intimo de cada uno de los desarrolladores por lo que todos los desarrolladores saben en que punto esta el proyecto y puedan saber que falta y que ya esta terminado
+11. Todo el equipo junto: No se pueden tener equipos remotos todos deben trabajar en el mismo espacio 
+12. Estandares de codigo: Debemos pegarnos a los estandares de código de mayor calidad en el mercado.
+
+Dentro de XP se presentan los siguientes Roles:
+
+- Coach: Coordina al equipo, organiza parejas para el Pair Programming, Trata con el Product Owner.
+- Product Owner: 
+- Programador
+- Tester
+- Monitor: Experto técnico que realizara seguimiento (monitoreo) revisando el código, que todo funcione, que se esten utilizando las herramientas de manera correcta y realizara el reporte tecnico que se entrega al Coach para que este posterior mente lo discuta con el Product owner.
+
+Este tipo de Metodologia trabaja con proyectos de codigo muy tecnicos por lo que genera una seguridad muy buena un codigo de muy alta calidad y un producto final excelente
+
+# Herramientas para Realizar Metodologias Agile
+
+Por ultimo mencionare algunas herramientas que podemos utilizar para realizar esta forma de trabajo solo mencionare las herramientas mas no mostrare su uso ya que no tienden a ser muy complejas de utilizar y seguramente ya existan varios video tutoriales que puedan mostrarte como usarlas ademas pondre plataformas tanto libres como de pago:
+
+- Jira (https://es.atlassian.com/software/jira)
+- Trello (https://trello.com/)
+- Asana (https://asana.com/es/)
+- Rally (https://rally1.rallydev.com/slm/login.op)
+- Github (Github puede utilizarse también como una herramienta de metodologias Agile por esto es muy utilizada en el desarrollo de software)
+- Collabtive (http://collabtive.o-dyn.de/index.php)
+- Taiga (https://taiga.io/)
+
+<i><b>"Finalmente muchas gracias por leer esta guia espero que te sirva para realizar tus proyectos de software de una forma mas agradable y simple"</b></i>
+- Alfonso Candiani Jaramillo
