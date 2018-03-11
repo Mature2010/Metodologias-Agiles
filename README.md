@@ -1,8 +1,8 @@
 # Metodologias Agiles (Scrum, Kanban)
 ## Por que existe esta Guía?
-En este repositorio planeo crear una Guia de lo que son las metodologias Agiles y Como utilizarlas para el desarrollo de Software esto teniendo en cuenta el principio de que la mejor forma de aprender es enseñando espero que te sea de utilidad mis notas sobre estos conceptos.
+En este repositorio planeo crear una Guia de lo que son las metodologias Agiles y Como utilizarlas para el desarrollo de Software. Esto teniendo en cuenta el principio de que la mejor forma de aprender es enseñando espero que te sea de utilidad mis notas sobre estos conceptos para realizar de forma mas efectiva un proyecto.
 
-# Algunas palabra importantes
+# Algunas palabras importantes
 A continuación te dejo algunas palabras que podrian generarte confusión al leer esta guía.
 
 <b>Agile: (Ágil)</b> Nombre genérico de las metodologías de desarrollo
@@ -21,10 +21,38 @@ A continuación te dejo algunas palabras que podrian generarte confusión al lee
 
 <b>Persona</b> Son los usuarios finales que interactuan con el producto.
 
+# Liderazgo e inteligencia emocional
+Es importante saber conocer como primer concepto que en la metodologia Agile no existen lideres todo el equipo es lider esto es por que no nos interesa que nadie delege responsabilidades si no que se trabaje em conjunto para sacar adelante el proyecto esto implica entender que todos tenemos la responsabilidad de llevar al equipo adelante por lo que todos los miembros del equipo deben entender lo siguiente:
+- El equipo lo es todo no hay individulidades y no es una competencia interna. Somos expertos de diversas areas trabajando para conseguir un objetivo.
+- Mentalidad colectiva. Exitos y errores son responsabilidad de todos y no de alguien en especifico.
+- Comunicación. En las juntas diarias todos deben de explicar que hicieron ayer y que haran hoy (Para que surjan oportunidades de retroalimentación o ayuda para realizar esta tarea).
+
+![imagen3](https://arr5n8wn3e-flywheel.netdna-ssl.com/wp-content/uploads/2016/01/Tuckman-Model-of-Team-Formation.jpg)
+<i>El modelo Tuckman es utilizado para saber como formar un equipo donde no existen lideres.</i>
+
+Es necesario comprender que para todos ser lideres y tener un equipo solido sus miembros deben tener inteligencia emocional esto es una soft-skill (habilidad blanda) ya que no se puede medir pero se sabra si sus miembros la poseen a medida que se desarrolle el proyecto. 
+
+Este concepto hace referencia a nuestra habilidad para poder relacionarnos con las demas personas y nuesdtro entorno a continuación presentare un cuadro para que puedas identificar puntos a desarrollar para tener una mayor inteligencia emocional ya que esta caracteristica es algo que algunas personas poseen de forma mas natural. Pero otras tienen que trabajar para desarrollarlo.
+
+![imagen3](https://1.bp.blogspot.com/-4bS9H4eNy3E/V_Z29A1Bv3I/AAAAAAAAI4E/OV71_5poYkU_NpOiEdC3_7Cb8udXlzuewCLcB/s1600/inteligencia-emocional.png)
+
+El tema de inteligencia emocional es un tema muy amplio e interesante por esto recomiendo que si te interesa saber mas sobre el tema leer los siguientes libros:
+            
+- Cómo Ganar Amigos e Influir sobre las Personas de Dale Carnegie.
+            
+- Los siete hábitos de la gente altamente efectiva de Stephen Covey.
+
+Para saber como utilizar la inteligencia emocinal en un equipo dejare la siguiente tabla:
+
+| Personales          | Sociales             |
+| ------------------- | -------------------- |
+| Auto-Administración (Adaptabilidad, Motivación)        | Habilidades Sociales (Liderazgo, Motivación)|
+| Auto-conocimiento (Conocimiento del ser, Apreciación)  | Conocimiento Social (Conocimiento de organización, Entorno) |
+
 # Qué es Agile?
 Agile es una metodologia (framework para los mas puristas) de trabajo. Para tener una organización mas efectiva y mayor profesionalismo a la hora de desarrollar un proyecto en este caso lo oriento al software pero esto solo es por que es donde yo tengo mayor dominio pero facilmente puedes utilizar estos conocimientos en cualquier area esto es por que la metodología maneja conceptos muy interesantes para un trabajo mas fluido y profesional.
 
-- Esta metodología implica sedr versatil y poder adaptarse a cambios en cualquier momento.
+- Esta metodología implica ser versatil y poder adaptarse a cambios en cualquier momento.
 
 - Ser Agil implica saber ser un lider que pueda manejar equipos de cualquier tamaño, experiencia o tipo.
 
@@ -37,6 +65,8 @@ Por lo tanto podemos entender Agil como una manera de administrar proyectos con 
 - Dominar la comunicación entre miembros del equipo, lideres y clientes (todos los que estan involucrados con el proyecto por lo que es ecencial identificarlos para poder hacer un buen trabajo).
 
 Es vital que todos los miembros sepan que son un equipo con un fin común y todos trabajen para lograrlo.
+
+![imagen3](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img5.png)
 
 # Agile Manifesto (Manifiesto Agil)
 
@@ -90,7 +120,7 @@ Equipos y Roles
 <b>Equipo:</b>
 - Diseñadores 
 - Desarrolladores
-- QA
+- QA (Quality assurance ejemplo testes)
 
 <b>Negocio:</b>
 - Product Owner (Dueño del producto)
@@ -132,6 +162,37 @@ Stand-Ups son juntas diarias en la que se va a conversar en qué fue lo que se h
 8. Comportamiento colaborativo: Tomas de decisiones grupales: Brainstorming, votaciones, juegos, tecnicas(Moscow), etc.
 
 9. Colocación: Ya formado el equipo y creado el compromiso. Pueden existir equipos locales y equipos remotos. Lo importante es que la comunicación sea eficiente y continua generalmente se busca crear equipos locales pero esto solo es por que la comunicación persona a persona es inmediata y esto presenta varias ventajas.
+
+## Negociación
+
+Siempre debe existir una colaboración constante entre todos los miembros del equipo pero existen casos en los que se presentan conflictos (entiendansen como diferencias de opinion acerca de actividades a realizar en historias de usuarios o formas de trabajar y no como problemas interpersonales entre miembros del equipo, para estos como se explico antes es necesario crear un equipo con inteligencia emocional.) por esto podemos definir las situaciones que se podrian presentar:
+
+- Problema: Se presenta cuando las personas no están descuerdo en algún punto
+- Desacuerdo: Se presenta cuando ambas partes justifican y defienden sus puntos 
+- Concurso: Se presenta cuando una de las partes quiere imponer su propuesta, para esto incluyen una tercera o mas partes para definir quien esta en lo correcto
+- Cruzada: Ambas partes buscan imponer su propuesta a costa de un tercero o mas partes
+- Guerra: Es cuando las partes están dispuestas a todo para implantar su propuesta
+
+Como Resolver estos conflictos
+
+Soluciones:
+- Problema: Se resuelve con colaboración(ambas personas dialogan sobre sus propuestas y en conjunto buscan la mejor opción)
+- Desacuerdo: Apoyo(el equipo apoya a ambas partes y tratan de unirlas para llegar a un bien común)
+- Concurso: Compromiso (se alienta a las partes a tener un compromiso de unión entre ambas alternativas)
+- Cruzada: Diplomacia (Para atacar una cruzada hay que ser muy diplomático. Se aparta a los involucrados y se les da a entender que esa actitud no es la correcta, y se debe mostrar de forma clara que la propuesta de esta persona no es realista o no es posible de realizar por razones claras, dándole a entender que su propuesta no es viable en ese contexto)
+- Guerra: Vive con ello, cambia de opinión (en este punto el conflicto es muy difícil de solucionar, ya que pasamos por todos los puntos anteriores sin resolver el conflicto con éxito)
+
+Una guerra en una metodología ágil causa muchos problemas tanto como retrasos como monetarios.
+
+<b>Si estas en un equipo ágil No quieres tener una guerra!!</b>
+
+Existen diversas metodologias que pueden utilizarse en este casos por ejemplo:
+La actividad de feedback efectivo de Martin Alaimo (http://www.martinalaimo.com/es/blog/feedback-efectivo)
+La nube de evaporación de conflictos del Dr. Eli Goldra (http://nodos.typepad.com/nodos_prime/files/toc_procesos_de_razonamiento_nde.pdf)
+
+También este tema se toca en el libro Los siete hábitos de la gente altamente efectiva de Stephen Covey.
+
+![guerra](https://www.iaspaper.net/wp-content/uploads/2017/02/Level-Of-Conflicts.jpg)
 
 # Comunicación
 
@@ -239,4 +300,32 @@ Otra de las caracteristicas importantes del Incremental Delivery es estar siempr
 
 # MVP (Minimum Valuable Product)
 
-Para continuar primero hay que entender que es un MVP 
+Ahora introduciremos el concepto de MVP basicamente son los features (caracteristicas) indispensables en el producto por lo que se refiere a saber que es lo minimo que tiene que tener nuestro producto para tener exito (desde el punto de vista del cliente generar ganancia) por lo que nos obliga a estudiar el producto como miembros del equipo y que lo conoscamos al 100%.
+
+Por lo tanto el MVP es el conjunto de todos los features que debe de tener nuestro primer release. Ya que es una base fundamental de código.
+
+![imagen4](https://public-media.interaction-design.org/images/uploads/9f7f5b30ed9905117b65572ab6949a9f.png)
+
+Para saber mas acerca del MVP recomiendo leer el siguiente articulo: https://www.interaction-design.org/literature/article/minimum-viable-product-mvp-and-design-balancing-risk-to-gain-reward
+
+# Scrum
+
+Es un framework de agile que es utilizado para simplificarnos la vida este tiene tres pilares fundamentales los cuales son:
+
+1. Transparencia: Toda la información que se maneja esta disponible para todos los miembros no hay secretos cualquier miembro puede pedir cualquier información y debe recibir siempre esta información.
+2. Inspección: Pueden presentarse terceras personas a inspeccionar el trabjo que se esta haciendo desde un punto de vista tecnico o administrativo.
+3. Adaptabilidad: A cambios, problemas o defectos que se puedan presentar.
+
+Scrum es una certificación extra y tiene una gran comunidad y soporte para poder implementarse.
+
+![scrum](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img6.png)
+
+## Roles en Scrum
+
+- Business (Negocio): Es el nombre que se le da a los Stakeholders que supervisan desde el punto de vista de tiempo y dinero.
+- Product Owner: Sigue manejandose de la misma forma.
+- SCRUM Master: Es aquel que cordina todas las juntas de Stand-Up, retrospectiva, planeación, etc. y que coordina al equipo. Las habilidades que requiere un SCRUM Master son: Ser una persona extrovertida. Tener desarrolladas habilidades intrapersonales. Poder comunicarse fluidamente con cada miembro del equipo.
+- SCRUM Team: Son los Diseñadores, Desarrolladores, QA
+
+Como utilizar Scrum:
+
