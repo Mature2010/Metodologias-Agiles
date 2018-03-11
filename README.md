@@ -1,4 +1,7 @@
 # Metodologias Agiles (Scrum, Kanban, XP)
+
+![imgagile](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img9.png)
+
 ## Por que existe esta Guía?
 En este repositorio planeo crear una Guia de lo que son las metodologias Agiles y Como utilizarlas para el desarrollo de Software. Esto teniendo en cuenta el principio de que la mejor forma de aprender es enseñando espero que te sea de utilidad mis notas sobre estos conceptos para realizar de forma mas efectiva un proyecto.
 
