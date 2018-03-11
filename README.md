@@ -19,7 +19,7 @@ A continuación te dejo algunas palabras que podrian generarte confusión al lee
 
 <b>Spike:</b> Tipo de Sprint para realizar experimentos, investigación o documentación que pueda ser util para el proyecto.
 
-<b>Persona</b> Son los usuarios finales que interactuan con el producto.
+<b>Persona:</b> Son los usuarios finales que interactuan con el producto.
 
 # Liderazgo e inteligencia emocional
 Es importante saber conocer como primer concepto que en la metodologia Agile no existen lideres todo el equipo es lider esto es por que no nos interesa que nadie delege responsabilidades si no que se trabaje em conjunto para sacar adelante el proyecto esto implica entender que todos tenemos la responsabilidad de llevar al equipo adelante por lo que todos los miembros del equipo deben entender lo siguiente:
@@ -320,7 +320,7 @@ Scrum es una certificación extra y tiene una gran comunidad y soporte para pode
 
 ![scrum](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img6.png)
 
-## Roles en Scrum
+### Roles en Scrum
 
 - Business (Negocio): Es el nombre que se le da a los Stakeholders que supervisan desde el punto de vista de tiempo y dinero.
 - Product Owner: Sigue manejandose de la misma forma.
@@ -329,3 +329,69 @@ Scrum es una certificación extra y tiene una gran comunidad y soporte para pode
 
 Como utilizar Scrum:
 
+![scrum2](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/scrum.png)
+
+### Reuniones
+Como se puede observar en la imagen de arriba las reuniones son muy importantes por esto podemos clasificarlas en:
+
+- Reunión de planeación: Asisten el product owner, scrum master y scrum team. Se describen las prioridades al equipo, al final de la reunión se tienen dos cosas: una meta para el sprint que se realizara y un backlog del sprint.
+
+- Reunión de revisión: En cada sprint es requerido un incremento del producto (Agregarle valor). Así al final de cada sprint, el equipo muestra lo que se completó durante el sprint. Normalmente es un demo de un release o de una nueva característica. Participan el product owner, el scrum team, scrum master y todas las personas involucradas.
+
+- Reunión diaria: Cada día del sprint el equipo mantiene una reunión esta debe ser corta y precisa normalmente duran entre 15 y 20 minutos, en esta cada miembro del equipo responde tres preguntas:<b> ¿Qué hiciste ayer?, ¿Qué vas a hacer hoy?, ¿Qué impedimentos tienes?</b>. Asi pueden aparecer oportunidades de retroalimentación y ayuda.
+
+- Reunión de retrospectiva: Siempre existe oportunidad de mejora por esto esta es la última cosa para hacer en el sprint. En esta reunión se habla de qué cosas comenzar a hacer, qué dejar de hacer y cuáles continuar haciendo.
+
+### Valores de SCRUM:
+
+Dentro de Scrum existen valores y codigos de etica que se deben de seguir para ser un miembro de la comunidad (Scrum members) estos son:
+1. <b>Foco</b>: Todos trabajamos por una meta en común, todos nos vamos a enfocar en realizar esas actividades para que la meta sea cumplida
+
+2. <b>Valor</b>: Como todos estanos trabajando en equipo nos ayudamos y compartimos conocimientos y recursos tanto humanos como tecnicos para afrontar los retos.
+
+3. <b>Apertura</b>: Estar abierto a criticas constructivas y a retroalimentación para poder mejorar como personas y miembros del equipo
+
+4. <b>Compromiso</b>: Todos trabajamos para alcanzar el exito.
+
+5. <b>Respeto</b>: Compartimos exitos y fracasos aprendemos a respetarnos y definir que los demas puedan valorar ese respeto.
+
+Ejemplo de como utilizar SCRUM en la vida real:
+
+![ejemplo scrum](https://1.bp.blogspot.com/-7Pzghqdq2wk/WQyk7WYvbHI/AAAAAAAAFWA/2Q82Att88kUm_HpQLa_g8I27ZvB8LU00wCLcB/s1600/Scrum%2BBoard%2BExample.jpg)
+
+# KANBAN
+
+Este framework esta mas enfocado a la visualización del flujo de trabajo quitando algunas de las metricas preestablecidas por las metodologias agile y las sustituye por algo mas visual. Esta metodologa fue introducida por la empresa Toyota, esta palabra biene del japones por lo que su traducción mas cercana al español es letrero por que basicamente de esta forma funciona Kanban.
+
+Elimina conceptos como Epics y Subtareas.
+Las Iteraciiones se les llama ciclos de trabajo.
+
+El flujo de trabajo es mas sencillo y visual por esto solo tenemos To Do, In progress y Done por lo que el tablero solo tiene tres columnas.
+
+Se agrega el concepto de Work In Progress WIP ya que esta enfocado en reducir el trabajo, reduciendo el numero de historias In progress en el ciclo de trabajo. Por lo tanto al reducir los ciclos e historias de usuario los release van a ser mas amigables y pequeños, pero van a ser mas continuos y deben tener mejor calidad.
+
+![baner kanban](https://github.com/Mature2010/Metodologias-Agiles/blob/master/imagenes/img7.png)
+
+### Principios
+
+El trabajo debe de ser mas visual esto se pueden hacer con tarjetas fisicas que tengamos en un pizarron o compartirlas con el equipo. 
+
+Se debe limitar el Work In Progress por lo que no vamos a tener muchas historias de usuario para que asi todos los miembros del equipo puedan enfocarse en dichas historias.
+
+El Flujon de trabajo es mas administrable ya que los ciclos de trabajo comienzan cundo se pasan a la historia de usuario y terminan una vez se a realizado un Peer-Review (o revisión de pares)
+
+<b>Peer-Review:</b> Es una revision tanto de codigo como de pruebas que al final se presentan al Product Owner y se deciden si el criterio de aceptación es el apto para que esa historia sea completada.
+
+Por lo que podemos ver este framework es mas sistematico que Agile o Scrum lo que nos lleva a tener historias de usuario mas completas en el menor tiempo posible esto nos lleva a la mejora continua ya que los ciclos de trabajo son mas cortos y las historias de usuario son mas manejables las mejoras nos hacen mejorar cada uno de los ciclos
+
+![kanban](https://d2t79q9g75enw7.cloudfront.net/wp-content/uploads/2017/08/kanban-board.jpg?x38333)
+
+Otros de los cambios que implementa esta metodología es que las juntas las realizaremos con las historias que se encuentren In Progress ya que en este ocurren cuatro fases que son el Analisis, Diseño, Desarrollo y Pruebas y aqui realizaremos estas reuniones por lo que trabajaremos con muy pocas historias de usuario para hacer este analisis (entre 1 y 2) por lo tanto cada una de estas fases generara un Peer-Review.
+
+En base a las experiencia que se a adquirido en kanban se a llegado a la conclusion de que solamente se deben tener en cada In Progress:
+- 2 Historias de Analisis
+- 3 De Diseño
+- 4 De Desarrollo
+- 2 De Pruebas
+
+Esto por el nivel de complejidad de cada una de las fases. Por lo que limita el WIP y es uno de los Principios mas importantes de Kanban
